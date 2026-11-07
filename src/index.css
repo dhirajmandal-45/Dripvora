@@ -1,0 +1,157 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #111111;
+  --color-ink-soft: #3a3a38;
+  --color-paper: #f6f3ec;
+  --color-bone: #ece7dc;
+  --color-stone: #d9d3c6;
+  --color-mute: #8a857a;
+  --color-clay: #b5532f;
+  --color-clay-dark: #98421f;
+  --color-ok: #3f6b4f;
+
+  --font-display: "Cormorant Garamond", "Times New Roman", serif;
+  --font-sans: "Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --animate-fade-up: fade-up 0.6s cubic-bezier(0.22, 1, 0.36, 1) both;
+  --animate-fade-in: fade-in 0.5s ease both;
+  --animate-marquee: marquee 38s linear infinite;
+
+  @keyframes fade-up {
+    from { opacity: 0; transform: translateY(18px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-sans);
+  background: var(--color-paper);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection { background: var(--color-ink); color: var(--color-paper); }
+
+img { display: block; }
+button { cursor: pointer; }
+button:disabled { cursor: not-allowed; }
+
+:focus-visible { outline: 2px solid var(--color-clay); outline-offset: 3px; }
+
+.container-x { width: 100%; max-width: 1440px; margin-inline: auto; padding-inline: 1.25rem; }
+@media (min-width: 768px) { .container-x { padding-inline: 2.5rem; } }
+@media (min-width: 1280px) { .container-x { padding-inline: 4rem; } }
+
+.eyebrow { font-size: 0.7rem; letter-spacing: 0.22em; text-transform: uppercase; font-weight: 600; }
+.display { font-family: var(--font-display); font-weight: 500; letter-spacing: -0.01em; line-height: 1; }
+
+/* animated underline for links */
+.link-u { position: relative; }
+.link-u::after {
+  content: ""; position: absolute; left: 0; right: 0; bottom: -4px; height: 1px;
+  background: currentColor; transform: scaleX(0); transform-origin: left;
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.link-u:hover::after, .link-u[aria-current="page"]::after, .link-u.is-active::after { transform: scaleX(1); }
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { scrollbar-width: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+}
+
+/* Theme presets. The original DripVora palette remains the default. */
+:root[data-theme="default"] {
+  color-scheme: light;
+  --color-ink: #111111;
+  --color-ink-soft: #3a3a38;
+  --color-paper: #f6f3ec;
+  --color-bone: #ece7dc;
+  --color-stone: #d9d3c6;
+  --color-mute: #8a857a;
+  --color-clay: #b5532f;
+  --color-clay-dark: #98421f;
+}
+:root[data-theme="midnight"] {
+  color-scheme: dark;
+  --color-ink: #f5f1e8;
+  --color-ink-soft: #d2cec5;
+  --color-paper: #141615;
+  --color-bone: #242a26;
+  --color-stone: #3c443e;
+  --color-mute: #a4aaa3;
+  --color-clay: #d28c68;
+  --color-clay-dark: #b86f4b;
+}
+:root[data-theme="sage"] {
+  color-scheme: light;
+  --color-ink: #25332c;
+  --color-ink-soft: #48574d;
+  --color-paper: #eef0e8;
+  --color-bone: #e0e6d9;
+  --color-stone: #cbd5c6;
+  --color-mute: #788477;
+  --color-clay: #71866f;
+  --color-clay-dark: #566d55;
+}
+:root[data-theme="rose"] {
+  color-scheme: light;
+  --color-ink: #332625;
+  --color-ink-soft: #5a4645;
+  --color-paper: #f4e9e7;
+  --color-bone: #ead8d6;
+  --color-stone: #d9c1bf;
+  --color-mute: #927c7b;
+  --color-clay: #b56c70;
+  --color-clay-dark: #96575b;
+}
+
+body,
+header,
+footer,
+main,
+.theme-panel {
+  transition: background-color 220ms ease, color 220ms ease, border-color 220ms ease;
+}
+
+/* Section-level reveal is applied across customer-facing routes. */
+#main .scroll-section {
+  opacity: 0;
+  transform: translate3d(0, 22px, 0);
+  transition: opacity 680ms cubic-bezier(0.22, 1, 0.36, 1), transform 680ms cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+#main .scroll-section.is-in-view {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+/* Small-screen refinements without changing the desktop composition. */
+@media (max-width: 639px) {
+  .container-x { padding-inline: 1rem; }
+  .display { overflow-wrap: anywhere; }
+  #main h1.display { line-height: 0.98; }
+  .theme-panel { max-height: min(80vh, 34rem); overflow-y: auto; }
+}
+@media (prefers-reduced-motion: reduce) {
+  #main .scroll-section,
+  #main .scroll-section.is-in-view {
+    opacity: 1;
+    transform: none;
+    transition: none;
+    will-change: auto;
+  }
+}
