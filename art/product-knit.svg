@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice">
+  <rect width="800" height="1000" fill="#e7ddd2"/><path d="M90 1000 V430 Q90 110 400 110 Q710 110 710 430 V1000 Z" fill="#d8c8b8"/>
+  <g transform="translate(0 15) translate(400 500) scale(1.06) translate(-400 -500) translate(0 0)">
+    <defs>
+      <linearGradient id="g7vir35" x1="0" x2="1" y1="0" y2="0">
+        <stop offset="0" stop-color="#000" stop-opacity=".14"/>
+        <stop offset=".35" stop-color="#fff" stop-opacity=".10"/>
+        <stop offset=".7" stop-color="#000" stop-opacity="0"/>
+        <stop offset="1" stop-color="#000" stop-opacity=".18"/>
+      </linearGradient>
+    </defs>
+    <ellipse cx="400" cy="905" rx="250" ry="22" fill="#000" opacity=".12"/>
+    
+    <path d="M278 180 L346 156 Q400 206 454 156 L522 180 L662 330 L704 760 L616 774 L560 450 L548 840 Q400 862 252 840 L240 450 L184 774 L96 760 L138 330 Z" fill="#9a7968" stroke="#6d4c3b" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M278 180 L346 156 Q400 206 454 156 L522 180 L662 330 L704 760 L616 774 L560 450 L548 840 Q400 862 252 840 L240 450 L184 774 L96 760 L138 330 Z" fill="url(#g7vir35)"/>
+    
+      <path d="M346 156 Q400 206 454 156" fill="none" stroke="#725140" stroke-width="20" stroke-linecap="round"/>
+      <path d="M256 790 V840" stroke="#7c5b4a" stroke-width="3" opacity=".6"/><path d="M269 790 V840" stroke="#7c5b4a" stroke-width="3" opacity=".6"/><path d="M282 790 V840" stroke="#7c5b4a" stroke-width="3" opacity=".6"/><path d="M295 790 V840" stroke="#7c5b4a" stroke-width="3" opacity=".6"/><path d="M308 790 V840" stroke="#7c5b4a" stroke-width="3" opacity=".6"/><path d="M321 790 V840" stroke="#7c5b4a" stroke-width="3" opacity=".6"/><path d="M334 790 V840" stroke="#7c5b4a" stroke-width="3" opacity=".6"/><path d="M347 790 V840" stroke="#7c5b4a" stroke-width="3" opacity=".6"/><path d="M360 790 V840" stroke="#7c5b4a" stroke-width="3" opacity=".6"/><path d="M373 790 V840" stroke="#7c5b4a" stroke-width="3" opacity=".6"/><path d="M386 790 V840" stroke="#7c5b4a" stroke-width="3" opacity=".6"/><path d="M399 790 V840" stroke="#7c5b4a" stroke-width="3" opacity=".6"/><path d="M412 790 V840" stroke="#7c5b4a" stroke-width="3" opacity=".6"/><path d="M425 790 V840" stroke="#7c5b4a" stroke-width="3" opacity=".6"/><path d="M438 790 V840" stroke="#7c5b4a" stroke-width="3" opacity=".6"/><path d="M451 790 V840" stroke="#7c5b4a" stroke-width="3" opacity=".6"/><path d="M464 790 V840" stroke="#7c5b4a" stroke-width="3" opacity=".6"/><path d="M477 790 V840" stroke="#7c5b4a" stroke-width="3" opacity=".6"/><path d="M490 790 V840" stroke="#7c5b4a" stroke-width="3" opacity=".6"/><path d="M503 790 V840" stroke="#7c5b4a" stroke-width="3" opacity=".6"/><path d="M516 790 V840" stroke="#7c5b4a" stroke-width="3" opacity=".6"/><path d="M529 790 V840" stroke="#7c5b4a" stroke-width="3" opacity=".6"/>
+      <path d="M250 300 Q400 312 550 300" stroke="#866554" stroke-width="2" fill="none" opacity=".35"/><path d="M250 330 Q400 342 550 330" stroke="#866554" stroke-width="2" fill="none" opacity=".35"/><path d="M250 360 Q400 372 550 360" stroke="#866554" stroke-width="2" fill="none" opacity=".35"/><path d="M250 390 Q400 402 550 390" stroke="#866554" stroke-width="2" fill="none" opacity=".35"/><path d="M250 420 Q400 432 550 420" stroke="#866554" stroke-width="2" fill="none" opacity=".35"/><path d="M250 450 Q400 462 550 450" stroke="#866554" stroke-width="2" fill="none" opacity=".35"/><path d="M250 480 Q400 492 550 480" stroke="#866554" stroke-width="2" fill="none" opacity=".35"/><path d="M250 510 Q400 522 550 510" stroke="#866554" stroke-width="2" fill="none" opacity=".35"/><path d="M250 540 Q400 552 550 540" stroke="#866554" stroke-width="2" fill="none" opacity=".35"/><path d="M250 570 Q400 582 550 570" stroke="#866554" stroke-width="2" fill="none" opacity=".35"/><path d="M250 600 Q400 612 550 600" stroke="#866554" stroke-width="2" fill="none" opacity=".35"/><path d="M250 630 Q400 642 550 630" stroke="#866554" stroke-width="2" fill="none" opacity=".35"/><path d="M250 660 Q400 672 550 660" stroke="#866554" stroke-width="2" fill="none" opacity=".35"/><path d="M250 690 Q400 702 550 690" stroke="#866554" stroke-width="2" fill="none" opacity=".35"/><path d="M250 720 Q400 732 550 720" stroke="#866554" stroke-width="2" fill="none" opacity=".35"/><path d="M250 750 Q400 762 550 750" stroke="#866554" stroke-width="2" fill="none" opacity=".35"/>
+      
+  </g>
+</svg>

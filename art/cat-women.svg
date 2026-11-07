@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice">
+  <rect width="800" height="1000" fill="#ecd5d1"/><path d="M90 1000 V430 Q90 110 400 110 Q710 110 710 430 V1000 Z" fill="#e0bdb8"/>
+  <g transform="translate(170 150) translate(400 500) scale(0.7) translate(-400 -500) translate(0 0)">
+    <defs>
+      <linearGradient id="gdx4n8e" x1="0" x2="1" y1="0" y2="0">
+        <stop offset="0" stop-color="#000" stop-opacity=".14"/>
+        <stop offset=".35" stop-color="#fff" stop-opacity=".10"/>
+        <stop offset=".7" stop-color="#000" stop-opacity="0"/>
+        <stop offset="1" stop-color="#000" stop-opacity=".18"/>
+      </linearGradient>
+    </defs>
+    <ellipse cx="400" cy="950" rx="250" ry="22" fill="#000" opacity=".12"/>
+    
+    <path d="M290 210 L510 210 L664 840 Q400 884 136 840 Z" fill="#2f4a3c" stroke="#021d0f" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M290 210 L510 210 L664 840 Q400 884 136 840 Z" fill="url(#gdx4n8e)"/>
+    
+      <rect x="290" y="210" width="220" height="38" fill="#0c2719" opacity=".7"/>
+      <path d="M296 248 L150 850" stroke="#092416" stroke-width="3" opacity=".55"/><path d="M316.8 248 L200 850" stroke="#092416" stroke-width="3" opacity=".55"/><path d="M337.6 248 L250 850" stroke="#092416" stroke-width="3" opacity=".55"/><path d="M358.4 248 L300 850" stroke="#092416" stroke-width="3" opacity=".55"/><path d="M379.2 248 L350 850" stroke="#092416" stroke-width="3" opacity=".55"/><path d="M400 248 L400 850" stroke="#092416" stroke-width="3" opacity=".55"/><path d="M420.8 248 L450 850" stroke="#092416" stroke-width="3" opacity=".55"/><path d="M441.6 248 L500 850" stroke="#092416" stroke-width="3" opacity=".55"/><path d="M462.4 248 L550 850" stroke="#092416" stroke-width="3" opacity=".55"/><path d="M483.20000000000005 248 L600 850" stroke="#092416" stroke-width="3" opacity=".55"/><path d="M504 248 L650 850" stroke="#092416" stroke-width="3" opacity=".55"/>
+  </g>
+  <g transform="translate(-60 20) translate(400 500) scale(1) translate(-400 -500) translate(0 0)">
+    <defs>
+      <linearGradient id="gfxon8q" x1="0" x2="1" y1="0" y2="0">
+        <stop offset="0" stop-color="#000" stop-opacity=".14"/>
+        <stop offset=".35" stop-color="#fff" stop-opacity=".10"/>
+        <stop offset=".7" stop-color="#000" stop-opacity="0"/>
+        <stop offset="1" stop-color="#000" stop-opacity=".18"/>
+      </linearGradient>
+    </defs>
+    <ellipse cx="400" cy="950" rx="250" ry="22" fill="#000" opacity=".12"/>
+    
+    <path d="M332 120 L360 120 Q400 200 440 120 L468 120 L492 300 L466 362 Q560 640 664 930 Q400 972 136 930 Q240 640 334 362 L308 300 Z" fill="#e8c9c1" stroke="#bb9c94" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M332 120 L360 120 Q400 200 440 120 L468 120 L492 300 L466 362 Q560 640 664 930 Q400 972 136 930 Q240 640 334 362 L308 300 Z" fill="url(#gfxon8q)"/>
+    
+      <path d="M334 362 Q400 392 466 362" fill="none" stroke="#b6978f" stroke-width="12"/>
+      <path d="M360 120 Q400 200 440 120" fill="none" stroke="#bb9c94" stroke-width="5"/>
+      <path d="M350 392 Q270 700 170 940" stroke="#caaba3" stroke-width="2.5" opacity=".5" fill="none"/><path d="M370 392 Q322 700 262 940" stroke="#caaba3" stroke-width="2.5" opacity=".5" fill="none"/><path d="M390 392 Q374 700 354 940" stroke="#caaba3" stroke-width="2.5" opacity=".5" fill="none"/><path d="M410 392 Q426 700 446 940" stroke="#caaba3" stroke-width="2.5" opacity=".5" fill="none"/><path d="M430 392 Q478 700 538 940" stroke="#caaba3" stroke-width="2.5" opacity=".5" fill="none"/><path d="M450 392 Q530 700 630 940" stroke="#caaba3" stroke-width="2.5" opacity=".5" fill="none"/>
+      <circle cx="320" cy="520" r="9" fill="#b5532f" opacity=".9"/><circle cx="470" cy="560" r="9" fill="#b5532f" opacity=".9"/><circle cx="380" cy="640" r="9" fill="#b5532f" opacity=".9"/><circle cx="520" cy="720" r="9" fill="#b5532f" opacity=".9"/><circle cx="260" cy="760" r="9" fill="#b5532f" opacity=".9"/><circle cx="420" cy="820" r="9" fill="#b5532f" opacity=".9"/><circle cx="580" cy="860" r="9" fill="#b5532f" opacity=".9"/><circle cx="330" cy="900" r="9" fill="#b5532f" opacity=".9"/>
+  </g>
+</svg>

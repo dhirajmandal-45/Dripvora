@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice">
+  <rect width="800" height="1000" fill="#d8d9d4"/><path d="M90 1000 V430 Q90 110 400 110 Q710 110 710 430 V1000 Z" fill="#c2c7c0"/>
+  <g transform="translate(0 5) translate(400 500) scale(1.08) translate(-400 -500) translate(0 0)">
+    <defs>
+      <linearGradient id="g0cyzw1" x1="0" x2="1" y1="0" y2="0">
+        <stop offset="0" stop-color="#000" stop-opacity=".14"/>
+        <stop offset=".35" stop-color="#fff" stop-opacity=".10"/>
+        <stop offset=".7" stop-color="#000" stop-opacity="0"/>
+        <stop offset="1" stop-color="#000" stop-opacity=".18"/>
+      </linearGradient>
+    </defs>
+    <ellipse cx="400" cy="905" rx="250" ry="22" fill="#000" opacity=".12"/>
+    <path d="M322 188 Q318 70 400 62 Q482 70 478 188 Q400 245 322 188 Z" fill="#4d5849"/>
+    <path d="M285 200 L345 178 Q400 238 455 178 L515 200 L652 310 L704 722 L612 738 L562 468 L548 826 Q400 850 252 826 L238 468 L188 738 L96 722 L148 310 Z" fill="#697465" stroke="#3c4738" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M285 200 L345 178 Q400 238 455 178 L515 200 L652 310 L704 722 L612 738 L562 468 L548 826 Q400 850 252 826 L238 468 L188 738 L96 722 L148 310 Z" fill="url(#g0cyzw1)"/>
+    
+      <path d="M345 178 Q400 238 455 178 Q440 262 400 270 Q360 262 345 178Z" fill="#232e1f" opacity=".85"/>
+      <path d="M372 262 L368 400" stroke="#f4efe6" stroke-width="7" stroke-linecap="round"/>
+      <path d="M428 262 L432 400" stroke="#f4efe6" stroke-width="7" stroke-linecap="round"/>
+      <path d="M296 610 L504 610 L538 744 L262 744 Z" fill="#5b6657" stroke="#3c4738" stroke-width="3"/>
+      <path d="M238 790 Q400 816 562 790" stroke="#3c4738" stroke-width="14" fill="none" opacity=".55"/>
+      <path d="M120 700 L205 714 M595 714 L680 700" stroke="#3c4738" stroke-width="14" opacity=".55"/>
+  </g>
+</svg>
